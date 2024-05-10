@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Navbar */
+.navbar {
+    width: 100vw;
+    background-color: #aee9e6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 5rem;
+}
+.left img {
+    display: flex;
+}
+.checkBtn {
+    display: none;
+}
+#check {
+    display: none;
+}
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color: #ea098d;
+    line-height: 80px;
+}
+.right ul {
+    display: flex;
+    list-style: none;
+}
+.right ul li a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #ea098d;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+
+
+
+
+/* Card */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    margin: 100px auto;
+    width: 450px;
+    padding: 20px;
+    box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    border: 0;
+}
+   
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    background-color: #aee9e6;
+    color: #ea098d;
+    text-align: center;
+} 
+   
+   
+
+
+
+
+
